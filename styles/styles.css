@@ -1,5 +1,21 @@
 header {
-    background-color: gray;
+    background-color: #000000CC;
     color: whitesmoke;
-    padding: 2px 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1425px;
+    height: 44px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header li {
+    padding-left: 3em;
 }
